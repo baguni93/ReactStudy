@@ -1,10 +1,8 @@
 import React from "react";
 
-
 const Box = () =>{
 
     return (
-
         <div className="Hi">
             안녕 Const
         </div>
@@ -12,4 +10,4 @@ const Box = () =>{
 
 }
 
-export default Box
+export default Box;
