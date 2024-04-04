@@ -1,3 +1,3 @@
-export { default as Header } from "./Header";
+export { default as ExHeader } from "./ExHeader";
 
-export { default as Input } from "./Tag/Input";
+export { default as ExInput } from "./Tag/ExInput";

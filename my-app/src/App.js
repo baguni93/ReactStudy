@@ -8,7 +8,7 @@ import Input from "./pages/Input";
 import Input2 from "./pages/Input2";
 
 
-// import {Header, Input} from "./components/index";
+// import {ExHeader, ExInput} from "./components/index";
 
 // import를 하나씩 가져오는 것 보다는, pages폴더에 index.js파일을 생성하여 한번에 가져오는 것을 추천드립니다!
 // 예시로 컴포넌트 폴더를 생성하여 넣어놓을 테니 참조 부탁드립니다!
