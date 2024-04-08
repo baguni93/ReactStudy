@@ -6,7 +6,7 @@ const Box = () =>{
         <div className="Hi">
             안녕 Const
         </div>
-    )
+    );
 
 }
 

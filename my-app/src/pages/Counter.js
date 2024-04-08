@@ -19,7 +19,7 @@ const Counter = () =>{
             <p>{num}</p>
         </div>
     );
-}
+};
 
 
 export default Counter;
