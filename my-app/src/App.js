@@ -1,12 +1,13 @@
 import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Counter from "./pages/Counter";
-import Input from "./pages/Input";
-import Input2 from "./pages/Input2";
+// import Home from "./pages/Home";
+// import About from "./pages/About";
+// import Counter from "./pages/Counter";
+// import Input from "./pages/Input";
+// import Input2 from "./pages/Input2";
 
+import { About, Counter,Header,Home,Input,Input2} from "./pages/index";
 
 // import {ExHeader, ExInput} from "./components/index";
 

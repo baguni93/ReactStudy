@@ -9,6 +9,7 @@
     <title>Document</title>
 </head>
 <body>
+    <a href="#last"> last P</a>
     <h1>메타 태그</h1>
     <p>99프로 utf-8 을 사용</p>
     <p>!—EUC-KR</p>   
@@ -44,5 +45,54 @@
     style="width: 100px; height:100px"
     alt="전구 이모지예요"> 
     <p style="color: blueviolet; background-color:aquamarine;">문장입니다.</p>
+    <h1>HTML 스타일</h1>
+    <p>일반 문장입니다.</p>
+    <p style="color: aquamarine;">색 스타일</p>
+    <p style="color: rgb(255, 127, 176);">색 스타일</p>
+    <p style="color: rgb(255, 210, 127);">색 스타일</p>
+    <p style="font-size: large;">글씨가 문 큰 문장입니다.</p>
+    <p style="font-size: 50px;">글씨가 문 큰 문장입니다.</p>
+    <p style="font-size: 50px; background-color: blue;">글씨가 문 큰 문장입니다.</p>
+    <p style="font-size: 50px; background-color: blue; text-align: center;" > 가운데 정렬 글씨가 문 큰 문장입니다.</p>
+    <b>볼드체로 화면에 보여집니다.</b>
+    <br>
+    <strong>강조하는 글씨체로 화면에 보여집니다.</strong>
+    <p style="font-weight: bold;">p 태그도 볼드체처럼 보이게 할 수 있어요</p>
+    <i>이탤릭체로 화면에 보여집니다</i>
+    <br>
+    <em>em 태그이지만 이탤릭체처럼 보입니다. 하지만 이건 강조를 의미합니다.</em>
+    <p>텍스트가 <small>작게</small> 보이게 됩니다.</p>
+    <p>집에 오는 길에 <mark>우유</mark>를 사는 걸 잊지마라.</p>
+    <p>제품 할인 <del>3만원</del> 2만5천원.</p>
+    <p>내가 제일 좋아하는 색상은 <ins>노란색</ins> 입니다.</p>
+    <p>X <sub>2</sub></p>
+    <p >X <sup>2</sup></p>
+    <a href="http://www.youtube.com" target="_self"> 유투브 </a>
+    <a href="http://www.youtube.com" target="_parent"> 유투브2 </a>
+    <a href="http://www.youtube.com" target="_top" id="last"> 유투브3 </a>
+    <a href="javascript:showAlert();">경고</a>
+    <ul>
+        <li>아메리카노</li>
+        <li>에스프레소</li>
+        <li>카페라떼</li>
+    </ul>
+    <ol>
+        <li>HTML이란?</li>
+        <li>개발환경구성</li>
+        <li>HTML기본구조</li>
+        <li>HTML실행</li>
+    </ol>
+    <dl>
+        <dt>HTML</dt>
+        <dd>웹 페이지 개발을 위한 마크업 언어</dd>
+        <dt>CSS</dt>
+        <dd>HTML 문서의 스타일을 위한 언어</dd>
+    </dl>
+
+    <script>
+        function showAlert(){
+            alert("경고 메시지 입니다.")
+        }
+    </script>
 </body>
 </html>
